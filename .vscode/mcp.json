@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "first-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/dist/index.js"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "first-mcp-server-ts",
+  "version": "1.0.0",
+  "description": "My first MCP Server",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "MCP",
+    "LLM"
+  ],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.9.0",
+    "zod": "3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "typescript": "5.8.3"
+  }
+}
